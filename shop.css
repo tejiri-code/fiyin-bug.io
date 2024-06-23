@@ -1,0 +1,194 @@
+.top {
+    background-color: #AF8F6F;
+    height: 39px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .scrolling-text-wrapper {
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    animation: scroll-text 10s linear infinite;
+  }
+  
+  .pop {
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  @keyframes scroll-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .mid {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Vertically center items */
+    padding: 10px; /* Add padding for spacing */
+    }
+    .links{
+        display: flex;
+        text-decoration: none;
+        align-items: center; /* Vertically align items */
+        justify-content: space-between; /* Evenly space out the items */
+        gap: 20px;
+        list-style: none;
+         padding: 0;
+         margin-right: 8px;
+         font-family: 'Red Hat Display', sans-serif;
+        }
+        .links li {
+            display: inline; /* Ensure list items are inline */
+          }
+          .links a {
+            text-decoration: none; /* Remove underline from links */
+            color: inherit; /* Inherit color from parent */
+          }
+        
+
+        .links a:hover {
+            text-decoration: underline;
+            text-decoration-color: #FFFFFF;
+            text-decoration-thickness: 1.1px;
+           
+          }
+  
+  .search-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+  
+  .search-input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 55px;
+    width: 420px; /* Adjust width as needed */
+    margin-right: 10px; /* Increase margin for more spacing */
+  }
+  
+  .search-button {
+    
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .search-button i {
+    font-size: 18px;
+  }
+  
+  
+  .logo {
+  font-size: 60px;
+    margin-left: 200px;
+    max-width: 100px; /* Limit maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .bi-suit-heart-fill{
+    font-size: 30px;
+    color: black;
+    margin-left: 520px;
+    margin-top: 5px;
+  }
+
+
+  .shopping-bag-container {
+    position: relative;
+  }
+  
+  #shopping-bag {
+    color: black;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 3px;
+  }
+  
+  
+  .loading-spinner {
+    display: none; /* Initially hidden */
+    width: 1rem;
+    height: 1rem;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.last{
+   width: 100%;
+   height: 50px;
+   border: 1.5px solid black;
+  }
+  .limp{
+    
+    display: flex;
+    padding-top: 10px;
+    text-decoration: none;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Evenly space out the items */
+    gap: 20px;
+    list-style: none;
+    
+    margin-right: 8px;
+    font-family: 'Red Hat Display', sans-serif;
+    }
+  .limp a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+  }
+  .limp a:hover{
+    color: #A0937D;
+  }
+
+.shape{
+    height: 36px;
+    background-color: #AF8F6F;
+}
+.h{
+    font-size: 29px;
+    text-align: center;
+}
