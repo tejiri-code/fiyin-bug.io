@@ -7,3 +7,4 @@ document.getElementById('shopping-bag').addEventListener('click', function() {
     }
   });
   
+4
